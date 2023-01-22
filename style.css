@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&family=Calistoga&family=Montserrat&family=Nunito:wght@300&family=Poppins:wght@400;500;700&display=swap');
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h5{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-family: 'Archivo', sans-serif;
+    width: 700;
+
+}
+
+@media only screen and ( min-width: 720px ){
+    h1{
+        font-size: 5rem;
+    }
+
+    h5{
+        font-size: x-large;
+    }
+
+    p{
+        font-size: x-large;
+    }
+}
+
+h2{
+    font-family: 'Calistoga', cursive;
+
+}
+
+h3{
+    font-family: 'Archivo', sans-serif;
+    width: 500;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 33px;
+}
+
+.button_b{
+    background-color: #f64b3c;
+    color: white;
+    border-color: #f64b3c;
+
+}
+
+.button_w{
+    color: #f64b3c;
+    background-color: white;
+    
+}
+
+
+
+
+/* Custom */
+
+.nav_head{
+    background-image: url(/Assects/1.png);
+    background-size: 100%;
+    height: auto;
+}
+
+.anchor li{
+    padding:0rem 3rem ;
+}
+
+.anchor li a{
+    color: #ffff;
+}
+
+.nav_head header{
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.nav_head header h1{
+    color: #ffff;
+
+    
+}
+
+.nav_head header h5{
+    color: #ffff;
+    margin-top: 2rem;
+    
+}
+
+
+
+.our_chef{
+    background-image: url(/Assects/2.png);
+    background-size: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.our_chef h1{
+    color: #f64b3c;
+   
+    padding: 1rem 0rem;
+    
+}
+
+.our_chef p{
+    margin-top: 1rem;
+    color: #f64b3c;
+}
+
+
+
+.mask h1{
+    font-size: xx-large;
+    padding: 0rem;
+    padding-top: 0.5rem;
+    font-weight: 800;
+}
+
+
+.best_burger{
+    background-color: #f64b3c;
+    padding: 2rem;
+}
+
+.best_burger h1{
+    color: white;
+}
+
+.best_burger h5{
+    color: white;
+   
+}
+
+
+.big_burger{
+    background-image: url(/Assects/3.png);
+    padding: 2rem;
+}
+
+.big_burger h1,h5{
+    color: #f64b3c;
+}
