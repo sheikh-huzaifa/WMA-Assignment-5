@@ -3,32 +3,32 @@
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    font-size: 2vw;
 }
 
 h5{
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
+    font-size: 2vw;
 }
 
 h1{
     font-family: 'Archivo', sans-serif;
     width: 700;
+    font-size: 5vw;
+    
 
 }
 
-@media only screen and ( min-width: 720px ){
-    h1{
-        font-size: 5rem;
+@media only screen and ( min-width : 720px){
+    .big_img{
+        width: 100%;
     }
 
-    h5{
-        font-size: x-large;
-    }
-
-    p{
-        font-size: x-large;
-    }
+   
 }
+
+
 
 h2{
     font-family: 'Calistoga', cursive;
@@ -47,13 +47,22 @@ a{
 }
 
 button{
+    font-size: 1.2vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     letter-spacing: 2px;
-    width: 15rem;
-    height: 3rem;
+    width: 18vw;
+    height: 4vw;
     border-radius: 33px;
+    border-width: 0vw;
 }
+
+.button_b:hover{
+    background-color: #981a0e;
+
+}
+
+
 
 .button_b{
     background-color: #f64b3c;
@@ -65,7 +74,15 @@ button{
 .button_w{
     color: #f64b3c;
     background-color: white;
+    border-width: 0ch;
     
+}
+
+.button_w:hover{
+    background-color: rgb(198, 186, 186);
+    border-color: none
+    ;
+    border-width: 0ch;
 }
 
 
@@ -78,6 +95,25 @@ button{
     background-size: 100%;
     height: auto;
 }
+
+.nav_head nav button{
+    
+    width: 50vw;
+}
+
+
+.nav_head nav button span{
+    font-size: 15vw;
+    color: #ffff;
+}
+
+.nav_head nav button span{
+    font-size: 15vw;
+    color: aliceblue;
+}
+
+
+
 
 .anchor li{
     padding:0rem 3rem ;
@@ -108,37 +144,45 @@ button{
 
 .our_chef{
     background-image: url(/Assects/2.png);
-    background-size: 100%;
+    background-size: 100vw;
     text-align: center;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
+    padding-bottom: 2vh;
+    padding-top: 1vw;
+    
 }
 
 .our_chef h1{
     color: #f64b3c;
    
-    padding: 1rem 0rem;
+    padding: 1vw 0vw;
     
 }
 
 .our_chef p{
-    margin-top: 1rem;
+    margin-top: 1vw;
     color: #f64b3c;
 }
 
 
 
 .mask h1{
-    font-size: xx-large;
+    font-size: 2vw;
     padding: 0rem;
     padding-top: 0.5rem;
     font-weight: 800;
 }
 
+.mask h5{
+    font-size: 2vw;
+}
+
+.mask img{
+    width: 18vw;
+}
 
 .best_burger{
     background-color: #f64b3c;
-    padding: 2rem;
+    padding: 2vw;
 }
 
 .best_burger h1{
@@ -147,15 +191,155 @@ button{
 
 .best_burger h5{
     color: white;
+    font-size: 1.5vw;
    
 }
 
 
 .big_burger{
     background-image: url(/Assects/3.png);
-    padding: 2rem;
+    padding: 2vh;
 }
 
 .big_burger h1,h5{
     color: #f64b3c;
+}
+
+.big_burger h5{
+    font-size: 1.5vw;
+    color: #f64b3c;
+}
+
+
+.statics{
+    background-color: #f64b3c;
+    padding: 2rem 0rem;
+
+}
+
+.statics h1,p{
+    color: #ffff;
+}
+.statics p{
+    color: #ffff;
+    font-size: 1.5vw;
+}
+
+
+
+.popular_package{
+    background-image: url(/Assects/4.png);
+    
+}
+
+.cards{
+    border-radius: 8px;
+    border-width: 0vw;
+    
+}
+
+.cards:hover{
+    background-color: rgb(215, 215, 215);
+}
+
+.cards button:hover{
+    background-color: #981a0e;
+}
+
+
+.popular_package h1,h3,h5,p{
+    color: #f64b3c;
+    font-weight: 800 ;
+}
+
+.popular_package p{
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.popular_package h5{
+    font-weight: 900;
+    color: #f64b3c;
+}
+
+.popular_package h1{
+    font-size: 4vw;
+}
+
+.popular_package button{
+    font-size: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    width: 15vw;
+    height: 3vw;
+    border-radius: 33px;
+    color: #ffff;
+    background-color: #f64b3c;
+    border-color: #f64b3c;
+    border-width: 0vw;
+}
+
+
+.barry{
+    background-image: url(/Assects/5.png);
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.barry h3,h2{
+    color: #ffff;
+}
+
+.barry h3{
+    font-size: 2.5vw;
+}
+
+.barry h2{
+    font-size: 2.5vw;
+}
+
+.update{
+    background-image: url(/Assects/6.png);
+    height: 90vh;
+    width: 100vw;
+}
+.update h1,h5{
+    color: #f64b3c;
+}
+
+.forum{
+    padding-left: 15vw;
+    width: 70vw;
+    height: 4vw;
+    
+    
+}
+.form-control{
+    border-radius: 33px 0px 0px 33px;
+}
+
+.forum button{
+    border-radius: 0px 33px 33px 0px;
+    height: auto;
+    font-size: 1.3vw;
+}
+
+
+
+footer{
+    background-image: url(/Assects/footer.png);
+    height: 80vh;
+}
+
+footer h3,h5{
+    color: #ffff;
+}
+
+footer h5{
+    font-size: 1.5vw;
+}
+footer h5{
+    font-size: 1.5vw;
 }
